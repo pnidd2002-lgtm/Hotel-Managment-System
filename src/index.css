@@ -1,0 +1,50 @@
+/* Hotel Management System Custom Enhancements */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --primary-font: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  background-color: #f8fafc;
+  color: #1e293b;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.transition-all {
+  transition: all 0.25s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -4px rgba(0, 0, 0, 0.12) !important;
+}
+
+.badge {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.btn-warning {
+  background-color: #f59e0b;
+  border-color: #d97706;
+  color: #0f172a !important;
+}
+
+.btn-warning:hover {
+  background-color: #d97706;
+  border-color: #b45309;
+  color: #ffffff !important;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
